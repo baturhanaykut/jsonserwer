@@ -1,0 +1,77 @@
+{
+  "User": [
+    {
+      "firstname": "Baturhan",
+      "lastname": "Aykut",
+      "gender": "male",
+      "role": [
+        1
+      ],
+      "id": 1
+    },
+    {
+      "firstname": "Halil",
+      "lastname": "Korkmaz",
+      "gender": "male",
+      "role": [
+        1
+      ],
+      "id": 2
+    },
+    {
+      "firstname": "Tunahan",
+      "lastname": "Kılıç",
+      "gender": "male",
+      "role": [
+        1
+      ],
+      "id": 3
+    }
+  ],
+  "Role": [
+    {
+      "rolename": "Admin",
+      "permission": [
+        1
+      ],
+      "id": 1
+    }
+  ],
+  "Permissions": [
+    {
+      "name": "Permission -1 ",
+      "id": 1
+    },
+    {
+      "name": "Permission - 2",
+      "id": 2
+    }
+  ],
+  "Task": [
+    {
+      "name": "Görev-1",
+      "id": 1
+    },
+    {
+      "name": "Görev-2",
+      "id": 2
+    }
+  ],
+  "Flow": [
+    {
+      "name": "Flow-1",
+      "task": [
+        1
+      ],
+      "id": 1
+    },
+    {
+      "name": "Flow-2(Edit)",
+      "task": [
+        1,
+        2
+      ],
+      "id": 2
+    }
+  ]
+}
